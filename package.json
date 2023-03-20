@@ -5,9 +5,11 @@
   "main": "data.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "dev": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
+  "homepage": "https://crowwan.github.io/webpack-deploy",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crowwan/fe-sprint-my-agora-states-reference.git"
@@ -22,6 +24,7 @@
   "devDependencies": {
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.5",
     "style-loader": "^3.3.2",
